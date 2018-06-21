@@ -19,10 +19,10 @@ import java.lang.annotation.Target;
 
 /**
  * Annotation which indicates that a class and/or method are planned to be part of the supported Geomajas API.
- * <p/>
+ * <br>
  * This is an annotation to indicate that this should be part of the API, but there is still some room for discussion
  * or validation before changing to {@link Api}.
- * <p/>
+ * <br>
  * The intention is that these annotations only remain for a short time, either removing the annotation or changing to
  * {@link Api}. In principle this should be checked before a release. It is recommended to add some comments to
  * indicate why it is not yet @Api and/or indicate when it should become {@link Api}.

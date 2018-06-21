@@ -19,10 +19,10 @@ import java.lang.annotation.Target;
 
 /**
  * Annotation which indicates that a class and/or method are part of the supported Geomajas API.
- * <p/>
+ * <br>
  * Only classes and methods with this annotation are guaranteed to be supported for increasing versions with the same
  * major version number.
- * <p/>
+ * <br>
  * When the class is annotated, "allMethods" can be used to indicate that the annotation also applies to all public
  * methods in the class (or interface). When this is not used, the class is guaranteed to exist, but the individual
  * supported methods also need to be annotated. Note that the annotation explicitly does not apply for inner classes,
